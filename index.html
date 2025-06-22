@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rebel Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen">
+
+    <div class="text-center bg-white p-8 md:p-12 rounded-lg shadow-xl max-w-2xl mx-auto">
+        
+        <!-- Main Heading -->
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Welcome to The Rebel Library
+        </h1>
+
+        <!-- Image Container -->
+        <div class="mt-8">
+            <!-- 
+              IMPORTANT: Replace "YOUR_IMAGE_NAME.jpg" with the exact name of your image file.
+              For example, if your image is named "library-photo.png", you would change it to:
+              <img src="library-photo.png" ... >
+            -->
+            <img 
+              src="YOUR_IMAGE_NAME.jpg" 
+              alt="A descriptive caption for the image" 
+              class="rounded-lg shadow-md mx-auto max-w-full h-auto"
+              onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/ffffff?text=Image+Not+Found';">
+        </div>
+
+    </div>
+
+</body>
+</html>
